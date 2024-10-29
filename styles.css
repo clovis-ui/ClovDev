@@ -1,0 +1,139 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+
+header {
+    background: #e99b0b;
+    padding: 10px;
+    color: #fff;
+    padding-right: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+h1{
+    flex-grow: 1;
+    text-align: center;
+}
+ .logo{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #e99b0b;
+    filter: grayscale(100%);  
+    float: left; 
+}
+  .logo:hover{
+    filter: brightness(150%);
+    transform: scale(1.2);
+    transition: 0.5s; 
+  } 
+  .LoGo{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #e99b0b;
+    filter: grayscale(100%);  
+    float: right; 
+}
+.logo, .LoGo{
+    width: 80px;
+    height: auto;
+    padding: 30px;
+}
+  .LoGo:hover{
+    filter: brightness(150%);
+    transform: scale(1.2);
+    transition: 0.5s; 
+  }  
+  h1{
+    font-size: 24px;
+    color: black;
+  } 
+  @media(max-width: 600px){
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo, .LoGo{
+        margin: 10px 0;
+    }
+    h1{
+        font-size: 20px;
+    }
+  }
+p{
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+h2{
+    font-size: 20px;
+}
+ h2:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+   color: #e99b0b;
+ }
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.produit {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    cursor: pointer;
+}
+address a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e99b0b;
+    color: #fff;
+}
+footer div p{
+    color: black;
+    padding: 20px;
+}
+footer h1{
+    color: black;
+}
+footer p{
+    color: black;
+    
+}
